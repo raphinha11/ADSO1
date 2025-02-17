@@ -15,10 +15,13 @@ public class Aleatorio {
 		int impar1 = 0;
 		int impar2 = 0;
 
+		//generar numeros ramdon 
 		for (int i = 0; i < tamaño; i++) {
 			vector1[i] = (int) (Math.random() * 500) + 1;
 			vector2[i] = (int) (Math.random() * 500) + 1;
 
+			//encontrar la cantidad d numeros pares de ambos vectores
+			//encontrar cual de los vectores tiene mas numeros impres
 			if (vector1[i] % 2 == 0)
 				par1++;
 			else
@@ -55,6 +58,8 @@ public class Aleatorio {
 				}
 			}
 		}
+		
+		//Imprimir Los vectores ordenados acendentemente (Uando Stream)
 		System.out.println("Vector 1 ordenado: " + Arrays.toString(vector1));
 		System.out.println("Vector 2 ordenado: " + Arrays.toString(vector2));
 	}
