@@ -7,6 +7,13 @@ import java.util.Scanner;
 public class Aleatorio {
 
 	public static void main(String[] args) {
+		/*Realizar un programa en java que permita llenar 
+		 *dos vectores con números aleatorios entre 1 y 500.
+		 * A)	Mostrar la cantidad de números pares de ambos vectores.
+		 * B)	Mostrar la cantidad de números pares de ambos vectores.
+		 * C)	Mostrar lo vectores ordenados ascendentemente (Usando stream).
+		 */
+		
 		int tamaño = 5;
 		int[] vector1 = new int[tamaño];
 		int[] vector2 = new int[tamaño];

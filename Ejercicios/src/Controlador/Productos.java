@@ -6,6 +6,11 @@ public class Productos {
 
 	public static void main(String[] args) {
 		Scanner lt = new Scanner(System.in);
+		/*Realzar un programa en java que permita leer un arreglo de N productos.
+		 *Al final mostrar un arreglo resultante en donde se le calcule el 10% de 
+		 *descuento a aquellos precios de productos superiores a 55K y en los demás
+		 *casos aplicar un descuento del 5%.
+		 */
 
         // Leer la cantidad de precios
         System.out.print("Ingrese la cantidad de precios de productos: ");

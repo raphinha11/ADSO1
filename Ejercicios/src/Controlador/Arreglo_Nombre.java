@@ -7,6 +7,9 @@ public class Arreglo_Nombre {
 
 	public static void main(String[] args) {
 		var lt = new Scanner(System.in);
+		/*Realizar un programa en java que permita leer un arreglo de nombres.
+		 *Al final mostrar el nombre con mayor cantidad de caracteres.
+		 */
 		
 		//Leer la cantidad de nombre:
 		System.out.println("Ingrese la cantidad de nombres: ");
